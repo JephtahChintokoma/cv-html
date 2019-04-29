@@ -5,52 +5,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV_Jephtah</title>
-    
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
+<style>
+     .col{
+           color: white;
+       }
+
+        #top{
+        /* height:10%; */
+        display: flex;
+        background-color: rgb(46, 46, 175);
+        flex-direction: row;
+        }
+        #img{
+          
+            height: 10%;
+            width:10%;
+            border-radius: 50%;
+           float: right;
+        }
+        #half{
+           display: flex; 
+           flex-direction: row;
+           padding: 10px;
+           margin: 20px;
+           background-color:whitesmoke;
+        }
+        #right{
+            float:right;
+            padding-left: 3%;
+        }
+        .btn{
+            border: solid 2px grey;
+            border-radius: 10%;
+            background-color: rgb(28, 30, 143);
+            color: white;
+
+        }
+        h1{
+        color:blue;
+        }
+        h2{
+            color: rgb(73, 73, 151)
+        }
+        h4{
+            color: rgb(50, 50, 95)
+        }
+       .lis{
+           border: solid 3px;
+           background-color: rgb(34, 34, 102);
+           color:white;
+       }
+       #top2{
+           display: flex;
+            flex-direction: row;
+            background-color: rgb(3, 3, 32)
+       }
+       .link{
+           margin-left: 10%;
+           margin-right: 10%;
+       }
+       #courses{
+           display:flex;
+            flex-direction: row;
+       }
+       p{
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+       }
+      
+        </style>
 <body>
-    <h1><center> Curriculm Vitae Of <em>Jephtah Chintokoma</em></center></h1>
-    <img src="me.png" alt="">
-    <h2><center>Jephtah Chintokoma</center></h2>
+    <div id="top">
+    <h1 class="col"><center> Curriculm Vitae Of <em>Jephtah Chintokoma</em></center></h1>
+    <h4 class="col">VISION:MY VISION IN LIFE IS NOT TO GET AHEAD OF OTHERS BUT TO BE BETTER THAN THE PERSON I WAS YESTERDAY</h4>
+    <img id="img" src="me.png" alt=""> 
+    <!-- <h2><center>Jephtah Chintokoma</center></h2> -->
+</div>
+   
+    <div id="top2">
+    <a  class='link'href="mailto:jephtahchintokoma@gmail.com"><button>Email</button></a>
+    <a class="link" href="https://linkedin.com/in/jephtahchintokoma"><button>LinkedIn</button></a>
+    <a class="link" href="#"><button>Num: +263778389969</button></a>
+    </div>
+    <div id="half">
+            <div id="left">
+                    <div id="exp">
+                        <h1>EXPERIENCE</h1>
+                        <br>
+                        <h2>Self Employed</h2>
+                            <p><em>01/2017 – 09/2017</em></p>
+                            <p>Importing electronic products from 
+                                China through Alibaba and reselling
+                                    them in Zimbabwe.</p>
+                                    <p>Made a 50% return on investment</p>
+                                    <br>
+                                    <h2>Self Employed</h2>
+                            <p><em>12/2014 – 03/2015</em></p>
+                            <p>Buying electronic products from wholesalers and reselling them to the
+                                    general public in small units.</p>
+                                
+                                    <p>Made a 100% return on investment</p>   
+                        
+                    </div>
+                    <div id="ed">
+                        <h1>EDUCATION</h1>
+                        <h2>Harare Instute of Technology</h2>
+                        <p>08/2017-current</p>
+                        
+                        <p>Second Year  Student</p>
+                        
+                        <p>Major: Bechelor of Technology in Computer Science</p>
+                        <p>Minor: Certificate in Higher Education</p>
+                        <br>
+                        <h2>ZRP High School</h2>
+                        <p>2011-2016</p>
+                        <h4>A-Level</h4>
+                        <p>13 Points</p>
+                        <li>Computer Science A</li><li>Mathematics A </li><li>Physics C</li>
+                        <br>
+                        <h4>O-Levels</h4>
+                        <p>8As and 2Bs</p>
 
-    <hr>
+                        <div id="courses">
+                        <ul id="first">
+                            <li>Biology A</li>
+                            <li>Mathematics A</li>
+                            <li>Physical Science A</li>
+                            <li>Geography A</li>
+                            <li>Computer Science A</li>
+                        </ul>
+                        <ul id="second" >
+                            <li>Accounts A</li>
+                            <li>History A</li>
+                            <li>Intergrated Science A</li>
+                            <li>English B</li>
+                            <li>Shona B</li>
+                        </ul>
+                        </div>
 
-    <h2>Qualifications</h2>
-    <ul>
-        
-        <li>Programming:Python, VB, Java</li>
-        <li>Leadership</li>
-        <li>Languages<ol>
-            <li>Fluent: English and Shona</li>
-            <li>Beginner: German</li>
-        </ol></li>
-        <li>Result Oriented</li>
-    </ul>
-    <h2>Portfolio</h2>
+                             
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="skills">
+                           <h1>SKILLS</h1>
+                           <p class="lis">Programming: Web, Python, Java</p>
+                           <p class="lis">Leadership</p>
+                           <p class="lis">Selling</p>
+                                    
+                                        
+                    </div>
+                    <div id="ach">
+                            <h1>ACHIEVEMENTS</h1>
+                            <ol>
+                                <li>Senior Debate District Champion 2016</li>
+                                <li>Junior Debate District Champion 2014</li>
+                                <li>Award For Outstanding Leadership 2014</li>
+                            </ol>
+                    </div>
+                    <div id="lang">
+                            <h1>LANGUAGES</h1>
+                                    <li>Fluent: English and Shona</li>
+                                    <li>Beginner: German</li>
+                                
+                    </div>
+                    <div id="int"></div>
+                    <h1>INTERESTS</h1>
+                    <p class="btn">Travelling</p>
+                    <p class="btn">Taking pictures</p>
+                    <br>
+
+                    <p class="btn">Reading</p>
+                    <p class="btn">Ameteur Historian</p>
+                    <p class="btn">Ameteur Investing</p>
+                </div>
+                
+    </div>
+
+   
+    <!-- <h2>Portfolio</h2>
     <ol> 
         <li>Personal website : <a href="jephtahchintokoma.co.zw">Click here to see</a></li>
-        <li>Currenly creating a blog for Muzkud Ivestments</li>
+        <li>Currenly creating a blog for Muzkud Ivestments <a href="muzkud.co.zw">Click here</a></li>
     </ol>
-    <h2>Achievements</h2>
-    <ol>
-        <li>Senior Debate District Champion 2016</li>
-        <li>Junior Debate District Champion 2014</li>
-        <li>Award For Outstanding Leadership 2014</li>
-    </ol>
+    
 
-    <h2>Courses</h2>
-    <ul>
-        <li>Technopreneurship</li>
-        <li>Programming</li>
-        <li>Data Structures and Algorithms</li>
-        <li>Operating Systems</li>
-        <li>Software Engineering</li>
-        <li>Digital Electronics</li>
-        <li>Analogue Electronics</li>
-        <li>Object Oriented Programming</li>
-        <li>Operations Research</li>
-        <li>Discrete Structures</li>
-    </ul>
-    <footer><center><em> This Website Was Created by Jephtah Chintokoma</em></center></footer>
+    
+    </ul> -->
+    
 
 </body>
+<footer><center><em> This Website Was Created by Jephtah Chintokoma</em></center></footer>
 </html>
